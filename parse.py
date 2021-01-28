@@ -4,7 +4,7 @@ import re
 
 url = "http://www.haiku-data.jp/"
 url += urllib.parse.quote(
-    "index.php?next_i=3&&search_type=or&kigo=冬&author_name=&first5=&last5=&keyword=&submit_or=追加検索&database=現代俳句協会「現代俳句データベース」&mode=",
+    "index.php?next_i=0&&search_type=or&kigo=花火&author_name=&first5=&last5=&keyword=&submit_or=追加検索&database=現代俳句協会「現代俳句データベース」&mode=",
     safe=".?=_&")
 
 req = urllib.request.Request(url)
